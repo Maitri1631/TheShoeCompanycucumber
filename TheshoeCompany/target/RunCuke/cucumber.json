@@ -1,0 +1,104 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7365382000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "User should applying filter on product successfully",
+        "description": "",
+        "id": "search-product;user-should-applying-filter-on-product-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 716783900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 102149400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am on home page",
+            "match": {
+              "location": "SearchProductSteps.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1126319400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I click on women Section",
+            "match": {
+              "location": "SearchProductSteps.iClickOnWomenSection()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 286078300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on New Arrivals",
+            "match": {
+              "location": "SearchProductSteps.iClickOnNewArrivals()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2258551700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I filtering section",
+            "match": {
+              "location": "SearchProductSteps.iFilteringSection()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 155930100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Click on clear Filter",
+            "match": {
+              "location": "SearchProductSteps.iClickOnClearFilter()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search Product",
+    "description": "",
+    "id": "search-product",
+    "keyword": "Feature",
+    "uri": "SearchProduct.feature"
+  }
+]
